@@ -67,41 +67,42 @@ public class PKCS5Padding extends DESCrypt {
         char judge = text.charAt(length - 1);
         switch (judge) {
             case '8':
-                //if (text.substring(length - 8, length - 1) == "88888888") {
+                if (text.substring(length - 8, length).equals("88888888")) {
                     result = text.substring(0, length - 8);
-                //}
+                }
                 break;
             case '7':
-                //if (text.substring(length - 7, length - 1) == "7777777") {
+                if (text.substring(length - 7, length).equals("7777777")) {
                     result = text.substring(0, length - 7);
-                //}
+                }
                 break;
             case '6':
-                //if (text.substring(length - 6, length - 1) == "666666") {
+                if (text.substring(length - 6, length).equals("666666")) {
                     result = text.substring(0, length - 6);
-                //}
+                }
                 break;
             case '5':
-                //if (text.substring(length - 5, length - 1) == "55555") {
+                if (text.substring(length - 5, length).equals("55555")) {
                     result = text.substring(0, length - 5);
-                //}
+                }
                 break;
             case '4':
-                //if (text.substring(length - 4, length - 1) == "4444") {
+                if (text.substring(length - 4, length).equals("4444")) {
                     result = text.substring(0, length - 4);
-                //}
+                }
                 break;
             case '3':
-                //if (text.substring(length - 3, length - 1) == "333") {
+                if (text.substring(length - 3, length).equals("333")) {
                     result = text.substring(0, length - 3);
-                //}
+                }
                 break;
             case '2':
-                //if (text.substring(length - 2, length - 1) == "22") {
+                if (text.substring(length - 2, length).equals("22")) {
                     result = text.substring(0, length - 2);
-                //}
+                }
                 break;
             case '1':
+                if(text.substring(length - 1, length).equals("1"))
                 result = text.substring(0, length - 1);
                 break;
             default:
