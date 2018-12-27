@@ -8,7 +8,7 @@
 本项目采用了自己仿制的PKCS#5Padding填充，所以对明文内容是否为64位无要求
 
 调用方式：
-```
+```java
 DESCrypt descrypt = new DESCrypt;
 descrypt.doFinal(加密模式,明文,密钥,是否进行BASE64编码);
 //加密模式
@@ -38,4 +38,4 @@ IntelliJ IDEA Community
 
 # 不求捐赠但求拿走红包
 
-<img src="https://github.com/50Death/CipheredSocketChat/blob/master/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg"width="350"height="520"alt="图片加载失败"/>
+![图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg)
