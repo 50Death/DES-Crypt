@@ -35,3 +35,7 @@ IntelliJ IDEA Community
 ### 关于加密密文
 
 输出为二进制字符串，未进行任何编码
+
+# 不求捐赠但求拿走红包
+
+<img src="https://github.com/50Death/CipheredSocketChat/blob/master/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg"width="350"height="520"alt="图片加载失败"/>
