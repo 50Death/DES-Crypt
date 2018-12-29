@@ -9,7 +9,7 @@
 
 调用方式：
 ```java
-DESCrypt descrypt = new DESCrypt;
+DESCrypt descrypt = new DESCrypt();
 descrypt.doFinal(加密模式,明文,密钥,是否进行BASE64编码);
 //加密模式
 enum crypt_mode {ENCRYPT_MODE, DECRYPT_MODE}
@@ -37,6 +37,6 @@ IntelliJ IDEA
 
 输出为二进制字符串，未进行任何编码
 
-# 不求捐赠但求拿走红包
+## 不求捐赠但求拿走红包
 
 ![图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/Pictures/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg)
